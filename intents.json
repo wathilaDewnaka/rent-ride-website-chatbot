@@ -1,0 +1,183 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Greetings",
+        "What's up",
+        "Howdy"
+      ],
+      "responses": [
+        "Hello! Welcome to RentRide. How can I assist you with your car rental needs today?",
+        "Hi there! Looking to rent a car? Let me help you find the perfect ride.",
+        "Hey! How can I help you with your rental or booking today?",
+        "Good day! What can I assist you with? Car rentals, bookings, or payment inquiries?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you soon",
+        "Catch you later"
+      ],
+      "responses": [
+        "Goodbye! We hope to see you again soon at RentRide. Have a great day!",
+        "Take care! Feel free to reach out if you need to rent another car or have any questions.",
+        "Bye! Thanks for choosing RentRide. We’re here whenever you need us!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot",
+        "Appreciate it",
+        "Much obliged"
+      ],
+      "responses": [
+        "You're welcome! Feel free to ask if you need further help with rentals.",
+        "No problem! We’re happy to assist with any car rental needs.",
+        "Glad I could assist! If you have more questions, let me know!",
+        "Anytime! Don't hesitate to reach out for more information."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need help",
+        "Can I get some assistance?",
+        "Please help",
+        "I need support",
+        "I have an issue with my booking"
+      ],
+      "responses": [
+        "Of course! What do you need help with? Rental options, booking, or payment?",
+        "Sure! Let me know how I can assist you. Are you looking for information on car rentals or something else?",
+        "I'm here to help! What do you need assistance with? Car availability, reservations, or order tracking?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "rental_info",
+      "patterns": [
+        "What are your car rental options?",
+        "Tell me about your car rentals",
+        "How can I rent a car?",
+        "What cars are available for rent?",
+        "What cars do you have for rental?",
+        "I want to see your rental cars"
+      ],
+      "responses": [
+        "We offer a wide range of cars including SUVs, sedans, and luxury vehicles. Check our website for the latest availability and prices.",
+        "You can view all available cars, their details, and rental prices on our car rental page.",
+        "To rent a car, simply select from our wide variety of vehicles, ranging from economy to luxury models. Check availability on our rentals page."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "booking",
+      "patterns": [
+        "How do I book a car?",
+        "Can I make a reservation?",
+        "I want to book a car",
+        "Book a car for me",
+        "How can I reserve a car?",
+        "I need to book a vehicle"
+      ],
+      "responses": [
+        "To book a car, visit our booking page, select your desired vehicle, choose your rental dates, and complete the reservation process.",
+        "You can make a reservation by selecting a car and booking dates on our website. Simply follow the on-screen instructions.",
+        "To book a vehicle, go to our booking section, choose a car, and input your pickup and drop-off dates. Let me know if you need help."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "Order status",
+        "Track my order",
+        "Can you check my order?",
+        "What about my car?",
+        "Car status",
+        "Is my booking confirmed?",
+        "Where is my rental car?"
+      ],
+      "responses": [
+        "Please provide your booking ID and I'll check the status for you.",
+        "Let me know your reservation number and I'll track the status of your booking.",
+        "Can you share the order ID? I'll look up your car rental status for you."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "What payment methods do you accept?",
+        "How can I pay for my rental?",
+        "Tell me about payment options",
+        "Can I use a credit card?",
+        "What are your payment options?",
+        "How do I pay?"
+      ],
+      "responses": [
+        "We accept various payment methods including credit/debit cards, PayPal, and other online payment platforms. You can choose your preferred method at checkout.",
+        "You can pay for your rental using any major credit or debit card, as well as online payment options like PayPal.",
+        "For payments, we offer secure options like credit cards and online payments. You can view all available methods on our payment page."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cancellation",
+      "patterns": [
+        "Can I cancel my reservation?",
+        "How do I cancel a booking?",
+        "I want to cancel my rental",
+        "Cancellation policy",
+        "How do I cancel my car rental?"
+      ],
+      "responses": [
+        "You can cancel your reservation by sending an email to rentride2024@gmail.com with your booking details.",
+        "To cancel a booking, email us at rentride2024@gmail.com. Check our website for our cancellation policy and fees.",
+        "For cancellations, please refer to our policy page or drop us an email. We're happy to assist with any cancellation requests."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "owner_ceo",
+      "patterns": [
+        "Who is the owner of RentRide?",
+        "Who is the CEO of RentRide?",
+        "Tell me about the owner of RentRide",
+        "Who runs RentRide?",
+        "Who founded RentRide?",
+        "Who manages RentRide?",
+        "Who is in charge at RentRide?",
+        "Who leads RentRide?",
+        "Who is the founder of RentRide?"
+      ],
+      "responses": [
+        "The CEO and founder of RentRide is Wathila Karunathilake.",
+        "RentRide is led by Wathila Karunathilake, who is both the CEO and founder of the company.",
+        "Wathila Karunathilake is the CEO and the visionary behind RentRide.",
+        "The company is managed by Wathila Karunathilake, who serves as the CEO and founder of RentRide.",
+        "RentRide was founded by Wathila Karunathilake, who currently holds the position of CEO."
+      ],
+      "context_set": ""
+    }
+  ]
+}
