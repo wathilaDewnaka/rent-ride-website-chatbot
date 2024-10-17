@@ -1,4 +1,4 @@
-absl-py==1.4.0
+absl-py==2.1.0
 astunparse==1.6.3
 avro-python3==1.10.2
 blinker==1.8.2
@@ -23,11 +23,10 @@ Markdown==3.7
 markdown-it-py==3.0.0
 MarkupSafe==2.1.5
 mdurl==0.1.2
-# Try a different version for ml-dtypes
-ml-dtypes==0.3.0  # or another compatible version
+ml-dtypes==0.4.1
 namex==0.0.8
 nltk==3.9.1
-numpy==1.25.0  # Ensure compatibility with other libraries
+numpy==1.26.4
 opt-einsum==3.3.0
 optree==0.12.1
 packaging==24.1
@@ -40,7 +39,8 @@ setuptools==75.1.0
 six==1.16.0
 tensorboard==2.17.1
 tensorboard-data-server==0.7.2
-tensorflow==2.16.2  # or another compatible version
+tensorflow==2.17.0
+tensorflow-intel==2.17.0
 termcolor==2.4.0
 tqdm==4.66.5
 typing_extensions==4.12.2
