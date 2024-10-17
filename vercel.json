@@ -1,18 +1,18 @@
 {
-    "version": 2,
-    "builds": [
-        {
-            "src": "chatbot.py",
-            "use": "@vercel/python"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "chatbot.py"
-        }
-    ],
-    "env": {
-        "PYTHON_VERSION": "3.8"  
+  "version": 2,
+  "builds": [
+    {
+      "src": "chatbot.py",
+      "use": "@vercel/python",
+      "config": {
+        "pythonVersion": "3.8"
+      }
     }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "chatbot.py"
+    }
+  ]
 }
