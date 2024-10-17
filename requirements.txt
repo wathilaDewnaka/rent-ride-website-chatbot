@@ -4,4 +4,4 @@ numpy
 nltk>=3.7
 keras>=2.9.0
 requests==2.32.3
-tflite-runtime==2.11.0  # Compatible with Python 3.8 and below
+tflite-runtime>=2.11.0  # Compatible with Python 3.8 and below
